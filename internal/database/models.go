@@ -20,5 +20,5 @@ type User struct {
 	UpdatedAt string
 	Name      string
 	// #nosec G117
-	ApiKey    string
+	ApiKey string
 }

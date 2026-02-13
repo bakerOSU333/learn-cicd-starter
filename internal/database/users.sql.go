@@ -26,7 +26,7 @@ type CreateUserParams struct {
 	UpdatedAt string
 	Name      string
 	// #nosec G117
-	ApiKey    string
+	ApiKey string
 }
 
 func (q *Queries) CreateUser(ctx context.Context, arg CreateUserParams) error {
