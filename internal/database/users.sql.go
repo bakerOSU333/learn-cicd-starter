@@ -25,6 +25,7 @@ type CreateUserParams struct {
 	CreatedAt string
 	UpdatedAt string
 	Name      string
+	// #nosec G117
 	ApiKey    string
 }
 

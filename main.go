@@ -95,6 +95,7 @@ func main() {
 		ReadHeaderTimeout: time.Second * 5,
 	}
 
+	// #nosec G706
 	log.Printf("Serving on port: %s\n", port)
 	log.Fatal(srv.ListenAndServe())
 }

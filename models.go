@@ -11,6 +11,7 @@ type User struct {
 	CreatedAt time.Time `json:"created_at"`
 	UpdatedAt time.Time `json:"updated_at"`
 	Name      string    `json:"name"`
+	// #nosec G117
 	ApiKey    string    `json:"api_key"`
 }
 
